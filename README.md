@@ -1,6 +1,7 @@
-# npmtest-node-vibrant [![npm package](https://img.shields.io/npm/v/npmtest-node-vibrant.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-node-vibrant) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-node-vibrant.svg)](https://travis-ci.org/npmtest/node-npmtest-node-vibrant)
+# npmtest-node-vibrant
 
-test coverage for  [node-vibrant (v2.1.2)](https://github.com/akfish/node-vibrant#readme)
+#### basic test coverage for  [node-vibrant (v2.1.2)](https://github.com/akfish/node-vibrant#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-node-vibrant.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-node-vibrant) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-node-vibrant.svg)](https://travis-ci.org/npmtest/node-npmtest-node-vibrant)
+
 #### Node.js port of vibrant.js. Get color variations from an image. Basically a JS port of Android's Palette
 
 [![NPM](https://nodei.co/npm/node-vibrant.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/node-vibrant)
@@ -114,7 +115,8 @@ test coverage for  [node-vibrant (v2.1.2)](https://github.com/akfish/node-vibran
         "pretest": "gulp coffee && gulp browser",
         "test": "gulp test"
     },
-    "version": "2.1.2"
+    "version": "2.1.2",
+    "bin": {}
 }
 ```
 
